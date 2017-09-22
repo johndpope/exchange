@@ -309,8 +309,8 @@ public final class AltCoinAddressValidator extends InputValidator {
                         return new ValidationResult(true);
                     else
                         return regexTestFailed;
-				case "OGT":  
-					if (input.matches("^J[a-zA-Z0-9]{44,44}$")) 
+		case "OGT":  
+		      if (input.matches("^J[a-zA-Z0-9]{33,33}$")) 
                         return new ValidationResult(true);
                     else
                         return regexTestFailed;
